@@ -170,19 +170,19 @@ body textarea:required:valid {
 }
 
 .aside_content li:nth-child(1) a::before {
-  content: "u";
+  content: "=";
 }
 
 .aside_content li:nth-child(2) a::before {
-  content: "{";
+  content: "O";
 }
 
 .aside_content li:nth-child(3) a::before {
-  content: "R";
+  content: "M";
 }
 
 .aside_content li:nth-child(4) a::before {
-  content: "R";
+  content: "Q";
 }
 
 .loader {
@@ -400,6 +400,7 @@ img.mfp-img {
   height: 150px;
   border-radius: 50%;
   margin-top: 30px;
+  border: 1px #30aafd solid;
 }
 
 .resume_content h5 span {
@@ -426,13 +427,25 @@ img.mfp-img {
   text-decoration: underline;
 }
 
-.my_works {
+.my_works, .res_contacts, .prise_list, .tz {
   color: #111;
   margin-left: 30px;
   padding: 10px 40px 0 56px;
 }
 
-.my_works p span {
+.my_works, .res_contacts p span {
+  color: #111;
+  font-family: "RobotoBold", sans-serif;
+  text-decoration: underline;
+}
+
+.prise_list p span {
+  color: #111;
+  font-family: "RobotoBold", sans-serif;
+  text-decoration: underline;
+}
+
+.tz p span{
   color: #111;
   font-family: "RobotoBold", sans-serif;
   text-decoration: underline;
@@ -445,3 +458,45 @@ img.mfp-img {
   color: #111;
 }
 
+.job_end {
+  margin-bottom: 30px;
+}
+
+.res_contacts h3 {
+  text-align: center;
+}
+
+.res_contacts p {
+  margin-top: 20px;
+}
+
+.res_contacts a {
+  font-size: 16px;
+  color: #111;
+}
+
+.prise_list h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.prise_list li {
+  list-style-type: none;
+}
+
+.tz h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tz a {
+  margin-left: 10px;
+  font-size: 19px;
+  color: #000;
+}
+
+.boot_footer {
+  height: 10px;
+  background-color: #dedede;
+
+}
